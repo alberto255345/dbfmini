@@ -351,7 +351,7 @@ func (d *DBF) parseRecord(b []byte) (Record, bool, error) {
 				break
 			}
 			jd := int32(binary.LittleEndian.Uint32(fieldBytes[:4]))
-			ms := int32(binary.LittleEndian.Uint32(fieldBytes[4:8])) + 1
+			ms := int32(binary.LittleEndian.Uint32(fieldBytes[4:8]))
 			rec[f.Name] = vfpDateTimeToUTC(int(jd), int(ms))
 
 		case 'M':
