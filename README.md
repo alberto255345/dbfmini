@@ -10,3 +10,8 @@ Campos **M (memo)**: _TODO_ (esqueleto preparado para `.DBT/.FPT`).
 
 ```bash
 go get github.com/<seu-usuario>/dbfmini@v0.1.0
+```
+
+## Licença
+
+Distribuído sob os termos da [licença MIT](LICENSE).

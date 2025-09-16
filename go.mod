@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 module github.com/alberto255345/dbfmini
 
 go 1.23
